@@ -21,11 +21,10 @@ Subsequent SQL analysis explored various aspects:
 * Identification of multiple prize winners (individuals and organizations).
 * Patterns in prize sharing over time.
 
-**All detailed SQL scripts for data validation and exploratory analysis are available in:**
-- *([`Data validation`](./link2.sql)*
-- *[`EDA`](./link3.sql))*
+** Data processing is at: ** 
+*[`Data processing`](./link1.sql)*
 
-**The database schema:
+**The database schema:**
 | Field                | Type          | Null | Key | Default | Extra |
 | :------------------- | :------------ | :--- | :-- | :------ | :---- |
 | `year`               | `int`         | YES  |     | NULL    |       |
@@ -45,3 +44,8 @@ Subsequent SQL analysis explored various aspects:
 | `death_date`         | `varchar(500)`| YES  |     | NULL    |       |
 | `death_city`         | `varchar(500)`| YES  |     | NULL    |       |
 | `death_country`      | `varchar(500)`| YES  |     | NULL    |       |
+**All detailed SQL scripts for data validation and exploratory analysis are available in:**
+- *[`Data validation`](./link2.sql)*
+- *[`EDA`](./link3.sql)*
+
+
