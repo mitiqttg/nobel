@@ -22,7 +22,7 @@ Subsequent SQL analysis explored various aspects:
 * Patterns in prize sharing over time.
 
 ## Data processing:
-*[`Data processing`](./link1.sql)*
+*[`Data processing`](./link1.py)*
 
 ## Database schema:
 | Field                | Type          | Null | Key | Default | Extra |
