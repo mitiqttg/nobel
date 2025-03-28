@@ -22,7 +22,26 @@ Subsequent SQL analysis explored various aspects:
 * Patterns in prize sharing over time.
 
 **All detailed SQL scripts for data validation and exploratory analysis are available in:**
-[`nobel_validation_analysis.sql`](./nobel_validation_analysis.sql) *([`Data_validation.sql`](./link2.sql), [`EDA`](./link3.sql))*
+- *([`Data validation`](./link2.sql)*
+- *[`EDA`](./link3.sql))*
 
-**The database schema definition can be found in:**
-[`nobel_schema.sql`](./nobel_schema.sql) *(Link)*
+**The database schema:
+| Field                | Type          | Null | Key | Default | Extra |
+| :------------------- | :------------ | :--- | :-- | :------ | :---- |
+| `year`               | `int`         | YES  |     | NULL    |       |
+| `category`           | `varchar(500)`| YES  |     | NULL    |       |
+| `prize`              | `varchar(500)`| YES  |     | NULL    |       |
+| `motivation`         | `varchar(500)`| YES  |     | NULL    |       |
+| `prize_share`        | `varchar(500)`| YES  |     | NULL    |       |
+| `laureate_type`      | `varchar(500)`| YES  |     | NULL    |       |
+| `full_name`          | `varchar(500)`| YES  |     | NULL    |       |
+| `birth_date`         | `varchar(500)`| YES  |     | NULL    |       |
+| `birth_city`         | `varchar(500)`| YES  |     | NULL    |       |
+| `birth_country`      | `varchar(500)`| YES  |     | NULL    |       |
+| `sex`                | `varchar(500)`| YES  |     | NULL    |       |
+| `organization_name`  | `varchar(500)`| YES  |     | NULL    |       |
+| `organization_city`  | `varchar(500)`| YES  |     | NULL    |       |
+| `organization_country`| `varchar(500)`| YES  |     | NULL    |       |
+| `death_date`         | `varchar(500)`| YES  |     | NULL    |       |
+| `death_city`         | `varchar(500)`| YES  |     | NULL    |       |
+| `death_country`      | `varchar(500)`| YES  |     | NULL    |       |
