@@ -22,7 +22,7 @@ Subsequent SQL analysis explored various aspects:
 * Patterns in prize sharing over time.
 
 **All detailed SQL scripts for data validation and exploratory analysis are available in:**
-[`nobel_validation_analysis.sql`](./nobel_validation_analysis.sql) *(Link2,3)*
+[`nobel_validation_analysis.sql`](./nobel_validation_analysis.sql) *([`Data_validation.sql`](./link2.sql), [`EDA`](./link3.sql))*
 
 **The database schema definition can be found in:**
 [`nobel_schema.sql`](./nobel_schema.sql) *(Link)*
